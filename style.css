@@ -1,0 +1,82 @@
+body{
+    font-family: arial, sans-serif; 
+}
+ul{
+    list-style-type: none;
+    margin: 0 5px;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    font-size: 14px;
+    display: block;
+    color: 222;
+    text-align: center;
+    padding: 14px 8px;
+    text-decoration: none;
+}
+.header .sign-in{
+    background-color: #4285f4;
+    font-size: 14px;
+    text-decoration: bold;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 7px 10px;
+    margin: 5px 10px 0 5px;
+    text-decoration: none; 
+}
+li a:not(.sign-in):hover{
+    text-decoration: underline;
+}
+.footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.logo{
+    height: 100px; width: auto;
+    padding: 25px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search{
+    height: 40px; width: 650px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1, .button2{
+    font-family: arial, sans-serif; 
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: #f8f8f8;
+    color: #757575;
+    padding: 7px 10px;
+    margin: 25px 10px;
+}
+.button1:hover, .button2:hover{
+    color: 222;
+    border: 0.5px solid #757575;
+}
+
+.container{
+    margin: 5px;
+    text-align: center;
+}
+.content{                   /*Place Logo, Search box, and buttons in the middle. */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
