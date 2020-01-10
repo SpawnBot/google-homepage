@@ -1,37 +1,53 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Google</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <ul class="header">
-        <li><a href="#about">About</a></li>
-        <li><a href="#store">Store</a></li>
-        <li style="float:right"><a class="sign-in" href="#sign-in">Sign In</a></li>
-        <li style="float:right"><a class="active" href="#gmail">Gmail</a></li>
-        <li style="float:right"><a class="active" href="#images">Images</a></li>
-
+      <li><a href="#about">About</a></li>
+      <li><a href="#store">Store</a></li>
+      <div class="right">
+        <li>
+          <a class="active" href="#gmail">Gmail</a>
+        </li>
+        <li>
+          <a class="active" href="#images">Images</a>
+        </li>
+        <li>
+          <a class="sign-in" href="#sign-in">Sign In</a>
+        </li>
+      </div>
     </ul>
 
     <div class="content">
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google" class="logo">
-        <input class="search" type="text">
-        <div class="container">
-            <button class="button1" type="button">Google Search</button>
-            <button class="button2" type="button">I'm Feeling Lucky</button>
-        </div>
+      <img
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google"
+        class="logo"
+      />
+      <input class="search" type="text" />
+      <div class="container">
+        <button class="button1" type="button">Google Search</button>
+        <button class="button2" type="button">I'm Feeling Lucky</button>
+      </div>
     </div>
 
     <ul class="footer">
-        <li><a href="#advertising">Advertising</a></li>
-        <li><a href="#business">Business</a></li>
-        <li style="float:right"><a class="settings" href= "#settings">Settings</a></li>
-        <li style="float:right"><a class="terms" href= "#terms">Terms</a></li>
-        <li style="float:right"><a class="privacy" href= "#privacy">Privacy</a></li>
+      <li><a href="#advertising">Advertising</a></li>
+      <li><a href="#business">Business</a></li>
+      <div class="right">
+        <li>
+          <a class="privacy" href="#privacy">Privacy</a>
+        </li>
+        <li><a class="terms" href="#terms">Terms</a></li>
+        <li>
+          <a class="settings" href="#settings">Settings</a>
+        </li>
+      </div>
     </ul>
-
-</body>
+  </body>
 </html>
