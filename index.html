@@ -29,10 +29,20 @@
         alt="Google"
         class="logo"
       />
-      <input class="search" type="text" />
+      <div>
+        <form
+          action="https://www.google.com/search"
+          method="GET"
+          id="googleSearch"
+        >
+          <input class="search" type="text" name="q" />
+        </form>
+      </div>
       <div class="container">
-        <button class="button1" type="button">Google Search</button>
-        <button class="button2" type="button">I'm Feeling Lucky</button>
+        <button class="googleBtn" type="submit" form="googleSearch">
+          Google Search
+        </button>
+        <button class="luckyBtn" type="button">I'm Feeling Lucky</button>
       </div>
     </div>
 

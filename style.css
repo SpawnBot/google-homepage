@@ -68,8 +68,8 @@ li a:not(.sign-in):hover {
 input[type='text'] {
   padding-left: 30px;
 }
-.button1,
-.button2 {
+.googleBtn,
+.luckyBtn {
   font-size: 14px;
   border-radius: 4px;
   text-align: center;
@@ -83,8 +83,8 @@ input[type='text'] {
   min-width: 54px;
   margin: 25px 10px;
 }
-.button1:hover,
-.button2:hover {
+.googleBtn:hover,
+.luckyBtn:hover {
   color: 222;
   border: 1px solid #c6c6c6;
   background-color: #f8f8f8;
